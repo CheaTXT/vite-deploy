@@ -60,6 +60,12 @@ body{
 }
 .row2 {
   display: flex;
+  /* width: 512px; */
   gap: 10px;
+  /* background-color: aqua; */
 }
+[description]{
+  color: red;
+}
+
 </style>
