@@ -13,20 +13,20 @@ export const useStore = defineStore("store", {
       {
         id: 1,
         title: "Everyday Fresh & Clean with Our Products",
-        color: "",
-        image: "../assets/images/cat-11 1.png",
+        color: "#fffff",
+        image: new URL("../assets/images/Cms-04 1.png", import.meta.url),
       },
       {
         id: 2,
         title: "Make your Breakfast Healthy and Easy",
         color: "#....",
-        image: "...path to your image...",
+        image: new URL("../assets/images/Cms-04 1.png", import.meta.url),
       },
       {
         id: 3,
         title: "The best Organic Products Online",
         color: "#....",
-        image: "...path to your image...",
+        image: new URL("../assets/images/Cms-04 1.png", import.meta.url),
       },
     ],
     categories: [
@@ -48,57 +48,57 @@ export const useStore = defineStore("store", {
         id: 3,
         group: "Fruits",
         name: "Organic Kiwi",
-        color: "#....",
-        image: "...path to your image...",
+        color: "#FFFCEB",
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 4,
         group: "Fruits",
         name: "Red Apple",
         color: "#....",
-        image: "...path to your image...",
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 5,
         group: "Coffees & Teas",
         name: "Snack",
         color: "#....",
-        image: "...path to your image...",
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 6,
         group: "Coffees & Teas",
         name: "Chocolate",
         color: "#",
-        image: "."
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 7,
         group: "Coffees & Teas",
         name: "Chocolate",
         color: "#",
-        image: "."
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 8,
         group: "Coffees & Teas",
         name: "Chocolate",
         color: "#",
-        image: "."
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 9,
         group: "Coffees & Teas",
         name: "Chocolate",
         color: "#",
-        image: "."
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
       {
         id: 10,
         group: "Coffees & Teas",
         name: "Chocolate",
         color: "#",
-        image: "."
+        image: new URL("../assets/images/cat-13 1.png", import.meta.url),
       },
     ],
     products: [

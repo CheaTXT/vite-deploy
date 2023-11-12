@@ -13,7 +13,11 @@
 
     <div class="row2">
       <Promotion
-        
+        v-for ="promotion in store.promotions"
+        :key="promotion.id"
+        :description ="promotion.title"
+        :bgColor="promotion.color"
+        :image="promotion.image"
       />
     </div>
   </div>
@@ -32,11 +36,6 @@ export default {
     Category,
     Promotion,
   },
-  data() {
-    return {
-      promotion1: new URL("./assets/images/Cms-04 1.png", import.meta.url),
-    }
-  },
   setup() {
     const store = useStore();
     return { store };
@@ -46,6 +45,10 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+body{
+  position: relative;
+  left: -170px;
+}
 .content {
   display: flex;
   flex-direction: column;
