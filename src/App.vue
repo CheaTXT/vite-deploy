@@ -8,14 +8,14 @@
         :bgColor="category.color"
         :name="category.name"
         :group="category.group"
+        :qty="category.item"
       />
     </div>
-
     <div class="row2">
       <Promotion
-        v-for ="promotion in store.promotions"
+        v-for="promotion in store.promotions"
         :key="promotion.id"
-        :description ="promotion.title"
+        :description="promotion.title"
         :bgColor="promotion.color"
         :image="promotion.image"
       />
@@ -45,27 +45,24 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
-body{
+body {
   position: relative;
   left: -170px;
 }
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 30px;
 }
 .row1 {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
 }
 .row2 {
   display: flex;
-  /* width: 512px; */
+  align-items: center;
   gap: 10px;
-  /* background-color: aqua; */
+  justify-items: center;
 }
-[description]{
-  color: red;
-}
-
 </style>

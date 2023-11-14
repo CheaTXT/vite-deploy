@@ -24,7 +24,7 @@ export default {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid var(--NestMart-Brand-1-Light, #81b13d);
+  /* border: 1px solid var(--NestMart-Brand-1-Light, #81b13d); */
   box-shadow: 20px 20px 40px 0px rgba(24, 24, 24, 0.07);
 }
 .name {

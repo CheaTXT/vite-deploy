@@ -25,12 +25,11 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 .promotion {
-  width: 512px;
-  height: 300px;
+  width: auto;
   flex-shrink: 0;
   border-radius: 10px;
   display: flex;
-  position: relative;
+  position: relative; 
 }
 
 .col1 {
@@ -41,9 +40,10 @@ export default {
   position: absolute;
   left: 50px;
   top: 80px;
+  gap: 10px;
 }
 .col1 p {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bolder;
   font-family: "Quicksand", sans-serif;
 }
