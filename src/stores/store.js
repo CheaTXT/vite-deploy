@@ -28,6 +28,7 @@ export const useStore = defineStore("store", {
         color: "#E7EAF3",
         image: new URL("../assets/images/Cms-03 1.png", import.meta.url),
       },
+      
     ],
     categories: [
       {
@@ -110,14 +111,7 @@ export const useStore = defineStore("store", {
         image: new URL("../assets/images/cat-7 1.png", import.meta.url),
         item: "63",
       },
-      {
-        id: 11,
-        group: "Fruit",
-        name: "Orange",
-        color: "#FFF3FF",
-        image: new URL("../assets/images/cat-7 1.png", import.meta.url),
-        item: "63",
-      },
+      
     ],
     products: [
       {

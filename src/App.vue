@@ -9,16 +9,18 @@
         :name="category.name"
         :group="category.group"
         :qty="category.item"
+        
       />
     </div>
     <div class="row2">
-      <Promotion
-        v-for="promotion in store.promotions"
-        :key="promotion.id"
-        :description="promotion.title"
-        :bgColor="promotion.color"
-        :image="promotion.image"
-      />
+        <Promotion
+          v-for="promotion in store.promotions"
+          :key="promotion.id"
+          :description="promotion.title"
+          :bgColor="promotion.color"
+          :image="promotion.image"
+          
+        />
     </div>
   </div>
 </template>
@@ -57,7 +59,7 @@ body {
 }
 .row1 {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .row2 {
   display: flex;

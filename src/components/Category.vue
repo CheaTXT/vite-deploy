@@ -50,4 +50,5 @@ export default {
 p{
   font-family: "Quicksand", sans-serif;
 }
+
 </style>
